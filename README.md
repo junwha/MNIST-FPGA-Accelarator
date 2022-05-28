@@ -1,8 +1,7 @@
-# MNIST-FPGA-Accelarator: Accelerate MNIST classification using hardware (UNIST EE326)
+# MNIST-FPGA-Accelarator 
 
 ## Description
-Our hardware is about 10x faster than numpy for MNIST classification.
-We implemented streaming architecture using 1-bit quantization. 
+This is the project for accelerating MNIST classification using FPGA pynq board. We implemented streaming architecture using 1-bit quantization. As the result, our hardware is currently about 10x faster than numpy for MNIST classification. 
 
 ## Hierarchy
 `src`: vivado HLS source code for main hardware
