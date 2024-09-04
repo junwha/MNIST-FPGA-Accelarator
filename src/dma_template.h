@@ -24,9 +24,6 @@ struct ap_axis{
 };
  */
 
-// HONG JUN WHA IS MUNG CHUNG E
-// - JUNYEONG
-
 template <typename T>
 T pop_stream(ap_axiu <sizeof(T)*8,4,5,5> const &e)
 {
